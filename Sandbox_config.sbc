@@ -40,7 +40,7 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>true</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0.4</ProceduralDensity>
+    <ProceduralDensity>0.24</ProceduralDensity>
     <ProceduralSeed>5590875</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
@@ -113,7 +113,6 @@
     <StationsDistanceOuterRadiusEnd>30000000</StationsDistanceOuterRadiusEnd>
     <EconomyTickInSeconds>1200</EconomyTickInSeconds>
     <SimplifiedSimulation>false</SimplifiedSimulation>
-    <SuppressedWarnings />
     <EnablePcuTrading>true</EnablePcuTrading>
     <FamilySharing>true</FamilySharing>
     <EnableSelectivePhysicsUpdates>true</EnableSelectivePhysicsUpdates>
@@ -545,6 +544,6 @@
       <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
-  <SessionName>Starcore 3_15: Monetized Mayhem</SessionName>
-  <LastSaveTime>2023-04-17T22:30:33.4381215-05:00</LastSaveTime>
+  <SessionName>Starcore 3_15</SessionName>
+  <LastSaveTime>2023-04-17T20:12:47.2308602-06:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
