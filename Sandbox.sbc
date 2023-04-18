@@ -2,15 +2,15 @@
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
   <ElapsedGameTime>123337920000</ElapsedGameTime>
-  <SessionName>Starcore 3_15: Monetized Mayhem</SessionName>
+  <SessionName>Starcore 3_15</SessionName>
   <SpectatorPosition>
     <Position x="-5.201886745248431" y="-11983.847458792989" z="7.2514574001791328" />
-    <Forward x="0.2827202" y="-0.959129035" z="-0.0118629644" />
-    <Up x="-0.0580521" y="-0.0294541232" z="0.997878969" />
+    <Forward x="0.2827202" y="-0.9591291" z="-0.0118629355" />
+    <Up x="-0.0580520928" y="-0.02945417" z="0.997879" />
     <Orientation>
-      <X>-0.122624472</X>
-      <Y>0.6921212</Y>
-      <Z>0.7068878</Z>
+      <X>-0.122624479</X>
+      <Y>0.692121267</Y>
+      <Z>0.7068877</Z>
       <W>-0.07900115</W>
     </Orientation>
   </SpectatorPosition>
@@ -580,6 +580,11 @@ ReplacePaintSurvival=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
+    <ModItem FriendlyName="40k Weapons Mod">
+      <Name>2956906605.sbm</Name>
+      <PublishedFileId>2956906605</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="[SpraysAddon]SyFy-Font">
       <Name>2414545923.sbm</Name>
       <PublishedFileId>2414545923</PublishedFileId>
@@ -970,19 +975,8 @@ ReplacePaintSurvival=False
       <PublishedFileId>2870210922</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="WeaponCore - 2.4">
-      <Name>1918681825.sbm</Name>
-      <PublishedFileId>1918681825</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Rich HUD Master">
-      <Name>1965654081.sbm</Name>
-      <PublishedFileId>1965654081</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
   </Mods>
+  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1355,6 +1349,8 @@ ReplacePaintSurvival=False
       </item>
     </dictionary>
   </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -64243,4 +64239,7 @@ ReplacePaintSurvival=False
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
