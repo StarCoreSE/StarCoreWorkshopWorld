@@ -1,5 +1,5 @@
-[21:46:51.500] [T1] [DS=False] DEBUG | Log Started
-[21:46:51.539] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[23:33:43.956] [T1] [DS=False] DEBUG | Log Started
+[23:33:44.868] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -1261,6 +1261,7 @@ BeforeStart() - Checking Config for saved settings
 ->-> Definition added to restricted list
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/SmallRailgun
+->-> Definition added to restricted list
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_LargeMissileTurret/AutoCannonTurret
 ->-> Definition added to restricted list
@@ -1494,13 +1495,17 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/Starcore_Basic_Warhead
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/NID_Pyroacid
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/NID_Bioplasma
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/NID_HiveDrone
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/NID_BioplasmaHivedrone
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Odin_7x7_Battleshipcannon
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/Odin_5x5_Battleshipcannon
@@ -1951,6 +1956,33 @@ BeforeStart() - Checking Config for saved settings
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/LargeRailgun_SC
 ->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/CLB2X
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/BALLER
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/65_Launcher_FixedMount
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/Hellfire_Laser_Block
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/NID_HeavyPyroacid
+->-> Definition added to restricted list
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/NID_Feeder
+->-> Definition added to restricted list
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/NID_Leap
+->-> Definition added to restricted list
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/LightParticleWhip
+->-> Definition added to restricted list
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/ParticleWhip
+->-> Definition added to restricted list
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/NovaCannon
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/K_SA_HeavyMetal_Spinal_Rotary_Reskin
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_EventControllerBlock/EventControllerLarge
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_EventControllerBlock/EventControllerSmall
@@ -2052,16 +2084,6 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_MyProgrammableBlock/6SidePBSmall
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_MyProgrammableBlock/6SidePB
-->-> Setting added successfully
--> Setting = MyObjectBuilder_ConveyorSorter/65_Launcher_FixedMount
-->-> Setting added successfully
--> Setting = MyObjectBuilder_ConveyorSorter/Hellfire_Laser_Block
-->-> Setting added successfully
--> Setting = MyObjectBuilder_ConveyorSorter/K_SA_HeavyMetal_Spinal_Rotary_Reskin
-->-> Setting added successfully
--> Setting = MyObjectBuilder_ConveyorSorter/BALLER
-->-> Setting added successfully
--> Setting = MyObjectBuilder_ConveyorSorter/CLB2X
 ->-> Setting added successfully
 
 BeforeStart() - Checking Entity Components
