@@ -5,13 +5,13 @@
   <SessionName>Starcore 3_15</SessionName>
   <SpectatorPosition>
     <Position x="-5.201886745248431" y="-11983.847458792989" z="7.2514574001791328" />
-    <Forward x="0.2827202" y="-0.9591291" z="-0.0118629355" />
-    <Up x="-0.0580520928" y="-0.02945417" z="0.997879" />
+    <Forward x="0.282720238" y="-0.9591291" z="-0.0118626188" />
+    <Up x="-0.0580522344" y="-0.02945389" z="0.997879" />
     <Orientation>
-      <X>-0.122624479</X>
-      <Y>0.692121267</Y>
-      <Z>0.7068877</Z>
-      <W>-0.07900115</W>
+      <X>-0.122624516</X>
+      <Y>0.6921213</Y>
+      <Z>0.706887662</Z>
+      <W>-0.07900112</W>
     </Orientation>
   </SpectatorPosition>
   <SpectatorSpeed x="0.337500155" y="2.666666" />
@@ -114,7 +114,7 @@
     <AssemblerSpeedMultiplier>1</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
-    <OnlineMode>PUBLIC</OnlineMode>
+    <OnlineMode>OFFLINE</OnlineMode>
     <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>1</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
@@ -580,19 +580,14 @@ ReplacePaintSurvival=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
-    <ModItem FriendlyName="WeaponCore - 2.4">
-      <Name>1918681825.sbm</Name>
-      <PublishedFileId>1918681825</PublishedFileId>
+    <ModItem FriendlyName="40k Weapons Mod">
+      <Name>2956906605.sbm</Name>
+      <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Rich HUD Master">
       <Name>1965654081.sbm</Name>
       <PublishedFileId>1965654081</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="40k Weapons Mod">
-      <Name>2956906605.sbm</Name>
-      <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="[SpraysAddon]SyFy-Font">
