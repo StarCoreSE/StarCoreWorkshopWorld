@@ -1,27 +1,26 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>123337920000</ElapsedGameTime>
+  <ElapsedGameTime>162537280000</ElapsedGameTime>
   <SessionName>Starcore 3_15</SessionName>
   <SpectatorPosition>
-    <Position x="-5.201886745248431" y="-11983.847458792989" z="7.2514574001791328" />
-    <Forward x="0.282720238" y="-0.9591291" z="-0.0118626188" />
-    <Up x="-0.0580522344" y="-0.02945389" z="0.997879" />
+    <Position x="7231.1981019847972" y="3799.841955471572" z="-4148.4706783365446" />
+    <Forward x="0.7820687" y="-0.577436745" z="-0.234382957" />
+    <Up x="-0.5766096" y="-0.8131573" z="0.07935114" />
     <Orientation>
-      <X>-0.122624516</X>
-      <Y>0.6921213</Y>
-      <Z>0.706887662</Z>
-      <W>-0.07900112</W>
+      <X>-0.579302132</X>
+      <Y>0.217296019</Y>
+      <Z>0.7556373</Z>
+      <W>0.2149507</W>
     </Orientation>
   </SpectatorPosition>
-  <SpectatorSpeed x="0.337500155" y="2.666666" />
+  <SpectatorSpeed x="3.84433866" y="1" />
   <SpectatorIsLightOn>false</SpectatorIsLightOn>
-  <CameraController>Entity</CameraController>
-  <CameraEntity>72295701792108314</CameraEntity>
+  <CameraEntity>0</CameraEntity>
   <ControlledObject>72295701792108314</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2023-04-17T20:12:47.2308602-06:00</LastSaveTime>
+  <LastSaveTime>2023-04-22T03:46:04.3857997-06:00</LastSaveTime>
   <SpectatorDistance>20</SpectatorDistance>
   <WorkshopId xsi:nil="true" />
   <WorkshopId1 xsi:nil="true" />
@@ -40,21 +39,21 @@
         <Index>1</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorBlock" />
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Billboard352x240" />
         </Data>
       </Slot>
       <Slot>
         <Index>2</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Billboard1920x1080" />
         </Data>
       </Slot>
       <Slot>
         <Index>3</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+          <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
         </Data>
       </Slot>
       <Slot>
@@ -82,7 +81,7 @@
         <Index>7</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Billboard1920x1080" />
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Billboard88x60" />
         </Data>
       </Slot>
       <Slot>
@@ -220,6 +219,7 @@
     <StationsDistanceOuterRadiusEnd>30000000</StationsDistanceOuterRadiusEnd>
     <EconomyTickInSeconds>1200</EconomyTickInSeconds>
     <SimplifiedSimulation>false</SimplifiedSimulation>
+    <SuppressedWarnings />
     <EnablePcuTrading>true</EnablePcuTrading>
     <FamilySharing>true</FamilySharing>
     <EnableSelectivePhysicsUpdates>true</EnableSelectivePhysicsUpdates>
@@ -261,7 +261,7 @@ ReplacePaintSurvival=False
       </dictionary>
     </variables>
   </ScriptManagerData>
-  <AppVersion>1202066</AppVersion>
+  <AppVersion>1202068</AppVersion>
   <Factions>
     <Factions>
       <MyObjectBuilder_Faction>
@@ -980,6 +980,12 @@ ReplacePaintSurvival=False
       <PublishedFileId>2870210922</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="WeaponCore - 2.4">
+      <Name>1918681825.sbm</Name>
+      <PublishedFileId>1918681825</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
   </Mods>
   <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
@@ -990,7 +996,7 @@ ReplacePaintSurvival=False
       <DisplayName>GRE NPC4463</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-04-17T19:57:11.4395675-06:00</LastLoginTime>
+      <LastLoginTime>2023-04-22T03:12:32.1256825-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-02-23T22:12:12.0215261-07:00</LastLogoutTime>
       <RespawnShips />
@@ -1005,11 +1011,11 @@ ReplacePaintSurvival=False
       <Model>Default_Astronaut</Model>
       <ColorMask x="1" y="0.199999988" z="-0.450000018" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-04-17T19:57:11.4395675-06:00</LastLoginTime>
+      <LastLoginTime>2023-04-22T03:12:32.1416832-06:00</LastLoginTime>
       <SavedCharacters>
         <long>72295701792108314</long>
       </SavedCharacters>
-      <LastLogoutTime>2023-04-17T20:12:47.2308602-06:00</LastLogoutTime>
+      <LastLogoutTime>2023-04-22T03:46:04.3857997-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition>
         <X>3148.53824160442</X>
@@ -1024,7 +1030,7 @@ ReplacePaintSurvival=False
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-04-17T19:57:12.63738-06:00</LastLoginTime>
+      <LastLoginTime>2023-04-22T03:12:40.4736232-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
       <RespawnShips />
@@ -1037,7 +1043,7 @@ ReplacePaintSurvival=False
       <DisplayName>NEU NPC9276</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-04-17T19:57:11.4395675-06:00</LastLoginTime>
+      <LastLoginTime>2023-04-22T03:12:32.1306825-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-02-13T14:55:03.9461903-07:00</LastLogoutTime>
       <RespawnShips />
@@ -1050,7 +1056,7 @@ ReplacePaintSurvival=False
       <DisplayName>RED NPC5502</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-04-17T19:57:11.4395675-06:00</LastLoginTime>
+      <LastLoginTime>2023-04-22T03:12:32.1306825-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-02-13T14:55:37.4774061-07:00</LastLogoutTime>
       <RespawnShips />
@@ -1063,7 +1069,7 @@ ReplacePaintSurvival=False
       <DisplayName>BLU NPC7271</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-04-17T19:57:11.4395675-06:00</LastLoginTime>
+      <LastLoginTime>2023-04-22T03:12:32.1306825-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-02-13T14:56:10.8932299-07:00</LastLogoutTime>
       <RespawnShips />
@@ -1076,7 +1082,7 @@ ReplacePaintSurvival=False
       <DisplayName>ADM NPC8867</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-04-17T19:57:11.4395675-06:00</LastLoginTime>
+      <LastLoginTime>2023-04-22T03:12:32.1306825-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-02-23T21:30:19.0174251-07:00</LastLogoutTime>
       <RespawnShips />
@@ -1089,7 +1095,7 @@ ReplacePaintSurvival=False
       <DisplayName>GRN NPC5717</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2023-04-17T19:57:11.4395675-06:00</LastLoginTime>
+      <LastLoginTime>2023-04-22T03:12:32.1306825-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-02-23T22:11:27.5877603-07:00</LastLogoutTime>
       <RespawnShips />
@@ -1127,21 +1133,21 @@ ReplacePaintSurvival=False
                 <Index>1</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorBlock" />
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Billboard352x240" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>2</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Billboard1920x1080" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>3</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                  <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
                 </Data>
               </Slot>
               <Slot>
@@ -1169,7 +1175,7 @@ ReplacePaintSurvival=False
                 <Index>7</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Billboard1920x1080" />
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Billboard88x60" />
                 </Data>
               </Slot>
               <Slot>
@@ -1186,14 +1192,14 @@ ReplacePaintSurvival=False
             <CameraControllerSettings EntityId="72295701792108314">
               <IsFirstPerson>false</IsFirstPerson>
               <Distance>20</Distance>
-              <HeadAngle x="7.87630653" y="0" />
+              <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
           <BuildColorSlots>
             <Vector3>
               <X>0</X>
-              <Y>0.199999988</Y>
-              <Z>0.55</Z>
+              <Y>-0.8</Y>
+              <Z>7.450581E-09</Z>
             </Vector3>
             <Vector3>
               <X>0</X>
@@ -1212,8 +1218,8 @@ ReplacePaintSurvival=False
             </Vector3>
             <Vector3>
               <X>0.122222222</X>
-              <Y>-0.1</Y>
-              <Z>0.26</Z>
+              <Y>-0.100000024</Y>
+              <Z>0.2599999</Z>
             </Vector3>
             <Vector3>
               <X>0</X>
@@ -1222,8 +1228,8 @@ ReplacePaintSurvival=False
             </Vector3>
             <Vector3>
               <X>0</X>
-              <Y>-0.96</Y>
-              <Z>-0.5</Z>
+              <Y>-0.8</Y>
+              <Z>-0.450000018</Z>
             </Vector3>
             <Vector3>
               <X>0</X>
@@ -1232,18 +1238,18 @@ ReplacePaintSurvival=False
             </Vector3>
             <Vector3>
               <X>0</X>
-              <Y>0.15</Y>
-              <Z>0.25</Z>
+              <Y>0.150000036</Y>
+              <Z>0.249999911</Z>
             </Vector3>
             <Vector3>
-              <X>0</X>
-              <Y>-0.8</Y>
-              <Z>-0.42731145</Z>
+              <X>0.333333343</X>
+              <Y>-0.329999983</Y>
+              <Z>-0.0500000045</Z>
             </Vector3>
             <Vector3>
               <X>0.575</X>
-              <Y>0.199999988</Y>
-              <Z>0.55</Z>
+              <Y>0.150000036</Y>
+              <Z>0.199999958</Z>
             </Vector3>
             <Vector3>
               <X>0.122222222</X>
@@ -1253,19 +1259,19 @@ ReplacePaintSurvival=False
             <Vector3>
               <X>0</X>
               <Y>-0.799999952</Y>
-              <Z>0.6</Z>
+              <Z>0.55</Z>
             </Vector3>
             <Vector3>
               <X>0</X>
-              <Y>-0.81</Y>
-              <Z>-0.13</Z>
+              <Y>-0.809999943</Y>
+              <Z>-0.3</Z>
             </Vector3>
           </BuildColorSlots>
           <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <RemoteAdminSettings>4</RemoteAdminSettings>
           <PromoteLevel>None</PromoteLevel>
-          <BuildArmorSkin>SciFi_Armor</BuildArmorSkin>
-          <BuildColorSlot>9</BuildColorSlot>
+          <BuildArmorSkin>Weldless</BuildArmorSkin>
+          <BuildColorSlot>10</BuildColorSlot>
           <IsWildlifeAgent>false</IsWildlifeAgent>
         </Value>
       </item>
@@ -1600,7 +1606,7 @@ ReplacePaintSurvival=False
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
       <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
-      <SunDirectionNormalized x="-0.4728627" y="0.442916662" z="-0.7617256" />
+      <SunDirectionNormalized x="-0.682139158" y="0.2690634" z="-0.679919958" />
       <WeatherPlanetData />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentAssetModifiers" />
@@ -63983,12 +63989,12 @@ ReplacePaintSurvival=False
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>17283</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>20183</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
       <Definition Type="MyObjectBuilder_CoordinateSystemDefinition" Subtype="CoordinateSystem" />
-      <LastCoordSysId>43</LastCoordSysId>
+      <LastCoordSysId>74</LastCoordSysId>
       <CoordSystems>
         <CoordSysInfo>
           <Id>6</Id>
@@ -64067,6 +64073,96 @@ ReplacePaintSurvival=False
           <EntityCount>1</EntityCount>
           <Rotation x="1.25603208E-07" y="-0.707106769" z="-1.27277886E-07" w="0.707106769" />
           <Position x="-12687.333062119384" y="-320.02831588508138" z="-6.0508679045902767" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>69</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="0.8783882" y="-0.0122371754" z="0.3364826" w="0.339210629" />
+          <Position x="-1991.6281598433391" y="2067.9486440323954" z="3334.0660229672962" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>68</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="-0.6999585" y="0.0567447841" z="0.7082425" w="0.07232372" />
+          <Position x="-216.6827177972167" y="3255.9492254351594" z="-1916.8974391579632" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>63</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="-0.183728039" y="-0.174362525" z="0.6613145" w="0.7060488" />
+          <Position x="-17.114115134598695" y="-68.620413765985873" z="37.172503138485268" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>65</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="-0.499999821" y="-0.499999166" z="0.500001132" w="0.499999881" />
+          <Position x="2507.4571445591746" y="-4518.9887858554221" z="9738.6311971535761" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>70</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="0.8197676" y="0.16621083" z="0.493236154" w="-0.2388999" />
+          <Position x="2834.0984429096106" y="-4404.0701569239855" z="9677.57603559097" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>62</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="0.966871858" y="-0.031631954" z="0.25320825" w="0.006622407" />
+          <Position x="7.7953385264192292" y="-70.305081893800036" z="-30.287129154393142" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>66</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="-0.04496514" y="0.330082685" z="0.8237341" w="0.458787173" />
+          <Position x="-797.12885942479352" y="-4092.2167972324041" z="-9661.1664147214324" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>53</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="-4.94257257E-08" y="0.9442781" z="1.45126393E-07" w="-0.3291486" />
+          <Position x="-16.029433381223207" y="-121.61945376287602" z="6999.8707941579614" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>54</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="1.44868537E-07" y="0.3291486" z="4.897827E-08" w="0.9442781" />
+          <Position x="19.632405174209538" y="-36.527383000691394" z="7012.6829958824255" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>60</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="0.0189403985" y="-0.668463469" z="-0.00655079959" w="0.7434749" />
+          <Position x="1793.3940274890954" y="907.41435230631828" z="-2617.8413874325192" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>58</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="-0.5000001" y="-0.499999642" z="0.500000358" w="0.499999881" />
+          <Position x="813.27016697952115" y="12716.483351110344" z="118.86489306991939" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>61</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="0.3877488" y="0.408513635" z="-0.131242976" w="0.815808058" />
+          <Position x="-3046.2517147850454" y="1794.7715163802209" z="-1709.1561295731126" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>71</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="-0.7071064" y="2.19714352E-07" z="0.7071071" w="-9.03993168E-07" />
+          <Position x="7611.2995506720326" y="3527.4884400461851" z="-4273.0367727557068" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>72</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="0.527046561" y="0.6352574" z="0.557429254" w="0.08912087" />
+          <Position x="-5158.4749322316047" y="-5184.3395493175085" z="-5896.280905458535" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>73</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="0.698655665" y="-0.412617236" z="-0.5725471" w="0.117546268" />
+          <Position x="-2627.7157892024138" y="2292.2031936666244" z="3510.7334915210076" />
         </CoordSysInfo>
       </CoordSystems>
     </MyObjectBuilder_SessionComponent>
@@ -64222,24 +64318,24 @@ ReplacePaintSurvival=False
   <VicinityArmorModelsCache>
     <string>Models\Characters\Astronaut\SE_astronaut.mwm</string>
     <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlate.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlateSlope2Tip.mwm</string>
     <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm</string>
-    <string>Models\Cubes\Large\Armor\SlopePlateSlab.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleRightPlateSlope2Tip.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateCenter.mwm</string>
-    <string>Models\Cubes\Large\Armor\SlopePlate.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateSlope2TipBack.mwm</string>
-    <string>Models\Cubes\Large\Armor\SlopePlateSlope2Tip.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseTop.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfSlopedCornerBaseTop.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedRight.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfCornerDiagonal.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlate.mwm</string>
     <string>Models\Cubes\Large\Armor\HalfSlopeInvertedLeft.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm</string>
+    <string>Models\Cubes\Large\Armor\SlopePlateSlab.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseTop.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateCenter.mwm</string>
+    <string>Models\Cubes\Large\Armor\SlopePlateSlope2Tip.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfSlopedCornerBaseTop.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateSlope2TipBack.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfCornerDiagonal.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleRightPlateSlope2Tip.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedRight.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlateSlope2Tip.mwm</string>
+    <string>Models\Cubes\Large\Armor\SlopePlate.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm</string>
     <string>Models\Cubes\Large\Armor\HalfSlopeInvertedDiagonal.mwm</string>
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
@@ -64248,3 +64344,4 @@ ReplacePaintSurvival=False
     <dictionary />
   </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
+<!-- Saved '2023-04-22T03:56:18.6542569-06:00' with SEToolbox version '1.202.66.1' -->

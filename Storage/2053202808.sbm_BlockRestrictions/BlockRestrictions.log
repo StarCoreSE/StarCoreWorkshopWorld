@@ -1,5 +1,5 @@
-[23:33:43.956] [T1] [DS=False] DEBUG | Log Started
-[23:33:44.868] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[04:03:08.814] [T1] [DS=False] DEBUG | Log Started
+[04:03:08.852] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -563,6 +563,7 @@ BeforeStart() - Checking Config for saved settings
 ->-> Definition added to restricted list
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_LargeMissileTurret/(null)
+->-> Definition added to restricted list
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_LargeMissileTurret/SmallMissileTurret
 ->-> Setting added successfully
