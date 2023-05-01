@@ -605,9 +605,9 @@ ReplacePaintSurvival=False
       <PublishedFileId>2464635274</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Ultimate Spectator">
-      <Name>1914807557.sbm</Name>
-      <PublishedFileId>1914807557</PublishedFileId>
+    <ModItem FriendlyName="Cast Spectator">
+      <Name>2968491433.sbm</Name>
+      <PublishedFileId>2968491433</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Turretring Rotors (Advanced Rotors ofc)">
