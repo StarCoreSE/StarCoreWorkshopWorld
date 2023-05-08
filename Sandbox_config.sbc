@@ -141,21 +141,6 @@
     <MaxProductionQueueLength>50</MaxProductionQueueLength>
   </Settings>
   <Mods>
-    <ModItem FriendlyName="40k Weapons Mod">
-      <Name>2956906605.sbm</Name>
-      <PublishedFileId>2956906605</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Rich HUD Master">
-      <Name>1965654081.sbm</Name>
-      <PublishedFileId>1965654081</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="[SpraysAddon]SyFy-Font">
-      <Name>2414545923.sbm</Name>
-      <PublishedFileId>2414545923</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="WeaponCore - 2.2(1.0)-WIP">
       <Name>2189703321.sbm</Name>
       <PublishedFileId>2189703321</PublishedFileId>
@@ -164,11 +149,6 @@
     <ModItem FriendlyName="WCT FreeSubgrid">
       <Name>2464635274.sbm</Name>
       <PublishedFileId>2464635274</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Cast Spectator">
-      <Name>2968491433.sbm</Name>
-      <PublishedFileId>2968491433</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Turretring Rotors (Advanced Rotors ofc)">
@@ -242,8 +222,8 @@
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Starcore Reaction Control System">
-      <Name>2900757388.sbm</Name>
-      <PublishedFileId>2900757388</PublishedFileId>
+      <Name>2973091771.sbm</Name>
+      <PublishedFileId>2973091771</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Starcore Paperdoll">
@@ -339,6 +319,11 @@
     <ModItem FriendlyName="Say No To Scrap">
       <Name>1146278097.sbm</Name>
       <PublishedFileId>1146278097</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Rich HUD Master">
+      <Name>1965654081.sbm</Name>
+      <PublishedFileId>1965654081</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Relative Top Speed">
@@ -446,6 +431,11 @@
       <PublishedFileId>2759080043</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Cast Spectator">
+      <Name>2968491433.sbm</Name>
+      <PublishedFileId>2968491433</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Camera Panning - rotate camera view (+reset 1st person character view)">
       <Name>806331071.sbm</Name>
       <PublishedFileId>806331071</PublishedFileId>
@@ -521,6 +511,11 @@
       <PublishedFileId>1354870812</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="[SpraysAddon]SyFy-Font">
+      <Name>2414545923.sbm</Name>
+      <PublishedFileId>2414545923</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="[SpraysAddon]SpraysStarterPack">
       <Name>2414546174.sbm</Name>
       <PublishedFileId>2414546174</PublishedFileId>
@@ -541,13 +536,12 @@
       <PublishedFileId>2870210922</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="WeaponCore - 2.4">
-      <Name>1918681825.sbm</Name>
-      <PublishedFileId>1918681825</PublishedFileId>
+    <ModItem FriendlyName="40k Weapons Mod">
+      <Name>2956906605.sbm</Name>
+      <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
-  <SessionName>Starcore 3_15</SessionName>
-  <LastSaveTime>2023-04-22T03:46:04.3857997-06:00</LastSaveTime>
+  <SessionName>StarcoreWorkshopWorld</SessionName>
+  <LastSaveTime>2023-05-08T02:09:52.4686583-05:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>

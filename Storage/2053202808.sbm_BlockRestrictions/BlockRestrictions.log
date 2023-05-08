@@ -1,5 +1,5 @@
-[04:03:08.814] [T1] [DS=False] DEBUG | Log Started
-[04:03:08.852] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[02:08:58.391] [T1] [DS=False] DEBUG | Log Started
+[02:08:58.541] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -1164,8 +1164,7 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/HAS_Mammon
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/HAS_Nott
-->-> Definition added to restricted list
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_TurretControlBlock/LargeTurretControlBlock
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_TurretControlBlock/SmallTurretControlBlock
@@ -1268,8 +1267,7 @@ BeforeStart() - Checking Config for saved settings
 ->-> Definition added to restricted list
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/HAS_Hecate
-->-> Definition added to restricted list
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/Starcore_Drone_Launcher
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/ARYXBurstTurret
@@ -1482,7 +1480,8 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/PDCTurret_Block
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/RailgunTurret_Block
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/VMLS_Block
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/Odin_CoilCannon
@@ -1698,7 +1697,7 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/TaiidanHangarHuge
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/TaiidanHangar
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/TaiidanHangarCompact
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/NHI_Fixed_Utility_Launcher
@@ -1712,7 +1711,7 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/TaiidanRailCompact
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/TaiidanRail
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/TaiidanSingleHangar
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/AITaiidanRailCompact
@@ -2085,6 +2084,22 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_MyProgrammableBlock/6SidePBSmall
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_MyProgrammableBlock/6SidePB
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_OxygenTank/Capacitor
+->-> Unable to retrieve MyCubeBlockDefinition
+-> Setting = MyObjectBuilder_OxygenGenerator/Charger
+->-> Unable to retrieve MyCubeBlockDefinition
+-> Setting = MyObjectBuilder_HydrogenEngine/CapacitorGenerator
+->-> Unable to retrieve MyCubeBlockDefinition
+-> Setting = MyObjectBuilder_ConveyorSorter/TaiidanRailBomber
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/TaiidanRailFighter
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/TaiidanHangarBomber
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/TaiidanHangarFighter
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/HAS_Cyclops
 ->-> Setting added successfully
 
 BeforeStart() - Checking Entity Components
