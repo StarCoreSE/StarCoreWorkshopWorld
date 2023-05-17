@@ -141,6 +141,11 @@
     <MaxProductionQueueLength>50</MaxProductionQueueLength>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="SCPrefabSpawner">
+      <Name>2977065999.sbm</Name>
+      <PublishedFileId>2977065999</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="WeaponCore - 2.2(1.0)-WIP">
       <Name>2189703321.sbm</Name>
       <PublishedFileId>2189703321</PublishedFileId>
@@ -541,7 +546,13 @@
       <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="WeaponCore - 2.4">
+      <Name>1918681825.sbm</Name>
+      <PublishedFileId>1918681825</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
   </Mods>
   <SessionName>StarcoreWorkshopWorld</SessionName>
-  <LastSaveTime>2023-05-08T02:09:52.4686583-05:00</LastSaveTime>
+  <LastSaveTime>2023-05-17T18:24:28.1082991-05:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>

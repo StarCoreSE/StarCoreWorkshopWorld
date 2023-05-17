@@ -1,5 +1,5 @@
-[02:08:58.391] [T1] [DS=False] DEBUG | Log Started
-[02:08:58.541] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[18:21:26.567] [T1] [DS=False] DEBUG | Log Started
+[18:21:26.728] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -1058,17 +1058,17 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_BatteryBlock/150 Sphere
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_BatteryBlock/200x200 Square
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_BatteryBlock/100x100 Square
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_BatteryBlock/50x50 Square
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_BatteryBlock/200x100 Rectangle
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_BatteryBlock/200x50 Rectangle
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_BatteryBlock/100x50 Rectangle
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/K_WCWA_StandardWarhead
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/K_WCWA_ESWarhead
@@ -2100,6 +2100,18 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/TaiidanHangarFighter
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/HAS_Cyclops
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/SC_RCS_Computer
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/SC_RCS_Computer_small
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/PriestReskin_Block
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/TaiidanHangarBomberMedium
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/HAS_Crossfield
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/HAS_MammonMK2
 ->-> Setting added successfully
 
 BeforeStart() - Checking Entity Components
