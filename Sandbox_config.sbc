@@ -8,7 +8,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>1</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -554,5 +554,5 @@
     </ModItem>
   </Mods>
   <SessionName>StarcoreWorkshopWorld</SessionName>
-  <LastSaveTime>2023-05-17T18:24:28.1082991-05:00</LastSaveTime>
+  <LastSaveTime>2023-05-19T17:28:39.9546323-05:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
