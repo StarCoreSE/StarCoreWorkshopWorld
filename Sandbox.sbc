@@ -5,13 +5,13 @@
   <SessionName>StarcoreWorkshopWorld</SessionName>
   <SpectatorPosition>
     <Position x="11999.318871284002" y="-9.1586878036971537" z="0.25704431756923912" />
-    <Forward x="-0.9919711" y="0.124267265" z="0.0234748274" />
-    <Up x="-0.124447353" y="-0.9922058" z="-0.006367466" />
+    <Forward x="-0.9919711" y="0.124267265" z="0.02347476" />
+    <Up x="-0.124447353" y="-0.9922058" z="-0.006367471" />
     <Orientation>
       <X>0.7138244</X>
       <Y>-0.0468200147</Y>
       <Z>0.6975368</Z>
-      <W>0.0412916</W>
+      <W>0.0412915945</W>
     </Orientation>
   </SpectatorPosition>
   <SpectatorSpeed x="0.04444447" y="1" />
@@ -121,7 +121,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>30000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>false</EnableVoxelHand>
@@ -921,13 +921,13 @@ ReplacePaintSurvival=False
       <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="WeaponCore - 2.4">
-      <Name>1918681825.sbm</Name>
-      <PublishedFileId>1918681825</PublishedFileId>
+    <ModItem FriendlyName="SCLoadingProfiler">
+      <Name>2981219592.sbm</Name>
+      <PublishedFileId>2981219592</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
+  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1236,6 +1236,8 @@ ReplacePaintSurvival=False
       </item>
     </dictionary>
   </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -64089,4 +64091,7 @@ ReplacePaintSurvival=False
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
