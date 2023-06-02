@@ -6,7 +6,7 @@
   <SpectatorPosition>
     <Position x="11999.318871284002" y="-9.1586878036971537" z="0.25704431756923912" />
     <Forward x="-0.9919711" y="0.124267265" z="0.02347476" />
-    <Up x="-0.124447353" y="-0.9922058" z="-0.006367471" />
+    <Up x="-0.124447346" y="-0.9922058" z="-0.006367475" />
     <Orientation>
       <X>0.7138244</X>
       <Y>-0.0468200147</Y>
@@ -516,6 +516,11 @@ ReplacePaintSurvival=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
+    <ModItem FriendlyName="Anomaly-Solaris-Hypernautics">
+      <Name>2983399274.sbm</Name>
+      <PublishedFileId>2983399274</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="SCPrefabSpawner">
       <Name>2977065999.sbm</Name>
       <PublishedFileId>2977065999</PublishedFileId>
