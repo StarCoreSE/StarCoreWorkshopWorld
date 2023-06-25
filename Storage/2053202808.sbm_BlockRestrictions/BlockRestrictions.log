@@ -1,5 +1,5 @@
-[00:10:00.712] [T1] [DS=False] DEBUG | Log Started
-[00:10:00.819] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[11:05:11.080] [T1] [DS=False] DEBUG | Log Started
+[11:05:11.123] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -1058,17 +1058,17 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_BatteryBlock/150 Sphere
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_BatteryBlock/200x200 Square
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_BatteryBlock/100x100 Square
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_BatteryBlock/50x50 Square
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_BatteryBlock/200x100 Rectangle
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_BatteryBlock/200x50 Rectangle
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_BatteryBlock/100x50 Rectangle
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/K_WCWA_StandardWarhead
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/K_WCWA_ESWarhead
@@ -1402,7 +1402,7 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/LargeBlockLargeCalibreGun
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/MetalStorm
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/MCRN_Heavy_Torpedo
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/UNN_Heavy_Torpedo
@@ -1681,7 +1681,7 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/ERPPC
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/SLAM
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/SC_COV_Plasma_Turret
 ->-> Definition added to restricted list
 ->-> Setting added successfully
@@ -1955,9 +1955,9 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/LargeRailgun_SC
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/CLB2X
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/BALLER
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/65_Launcher_FixedMount
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/Hellfire_Laser_Block
@@ -2083,11 +2083,7 @@ BeforeStart() - Checking Config for saved settings
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_MyProgrammableBlock/6SidePB
 ->-> Setting added successfully
--> Setting = MyObjectBuilder_OxygenTank/Capacitor
-->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_OxygenGenerator/Charger
-->-> Unable to retrieve MyCubeBlockDefinition
--> Setting = MyObjectBuilder_HydrogenEngine/CapacitorGenerator
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/TaiidanRailBomber
 ->-> Setting added successfully
@@ -2111,92 +2107,102 @@ BeforeStart() - Checking Config for saved settings
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/HAS_MammonMK2
 ->-> Setting added successfully
+-> Setting = MyObjectBuilder_BatteryBlock/CapacitorLarge
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/AMP_HealGenerator
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/AMP_FlakShotgun
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/AMP_ImpulseTorch
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/Support_Module_Test
+->-> Setting added successfully
 
 BeforeStart() - Checking Entity Components
 
 Finished with settings
 
 
-[00:10:00.827] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198151147645, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197971327067, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198380927243, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198178287057, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198064537764, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198319672646, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198312272507, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198050291772, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198018152599, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198294531481, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561199496451913, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561199495637180, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561199496242933, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198174035015, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198118644811, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198059258339, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198281269767, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561199473718349, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198072191664, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198851627204, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198362956150, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198275502293, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198978820534, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198427278091, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198131576010, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198136990649, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198133050445, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198116892322, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198877599981, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198260930185, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198022597716, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198092141916, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198153781997, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198130426212, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197998400543, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198034892525, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198357196024, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198122712358, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198210350349, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198367925695, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198064771679, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198084087034, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198260396048, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198160665766, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198049738491, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561199248170559, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198297139256, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197970956133, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198815069944, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198003175556, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198013723549, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198111541964, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198274566684, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198137333220, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198119449686, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198133966532, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198068108687, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198037641516, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198287904875, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198011557899, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198064225221, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197994008458, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198799420231, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198036662187, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198133822298, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198330424595, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197983729866, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198868427532, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198262832308, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198443882185, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197962916445, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198880209538, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198147497191, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198138856986, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198986093992, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198006916493, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198256358015, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198082186701, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198027998990, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198352133088, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198084063571, IsAdmin = False, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198071098415, IsAdmin = True, CopyPaste = True, Creative = True
-[00:10:00.828] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198028233790, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.125] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198151147645, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.125] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197971327067, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198380927243, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198178287057, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198064537764, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198319672646, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198312272507, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198050291772, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198018152599, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198294531481, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561199496451913, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561199495637180, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561199496242933, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198174035015, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198118644811, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198059258339, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198281269767, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561199473718349, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198072191664, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198851627204, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198362956150, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198275502293, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198978820534, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198427278091, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198131576010, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198136990649, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198133050445, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198116892322, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198877599981, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198260930185, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198022597716, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198092141916, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198153781997, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198130426212, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197998400543, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198034892525, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198357196024, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198122712358, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198210350349, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198367925695, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198064771679, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198084087034, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198260396048, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198160665766, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198049738491, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561199248170559, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198297139256, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197970956133, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198815069944, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198003175556, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198013723549, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198111541964, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198274566684, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198137333220, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198119449686, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198133966532, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198068108687, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198037641516, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198287904875, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198011557899, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198064225221, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197994008458, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198799420231, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198036662187, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198133822298, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198330424595, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197983729866, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198868427532, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198262832308, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198443882185, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561197962916445, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198880209538, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198147497191, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198138856986, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198986093992, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198006916493, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198256358015, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198082186701, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198027998990, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198352133088, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198084063571, IsAdmin = False, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198071098415, IsAdmin = True, CopyPaste = True, Creative = True
+[11:05:11.126] [T1] [DS=False] DEBUG | UpdateAllPlayerData: Id = 76561198028233790, IsAdmin = False, CopyPaste = True, Creative = True

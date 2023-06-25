@@ -40,8 +40,8 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>true</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0.24</ProceduralDensity>
-    <ProceduralSeed>5590875</ProceduralSeed>
+    <ProceduralDensity>0.5</ProceduralDensity>
+    <ProceduralSeed>197861</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
     <ViewDistance>25000</ViewDistance>
@@ -141,6 +141,11 @@
     <MaxProductionQueueLength>50</MaxProductionQueueLength>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="WC Radar">
+      <Name>2957590632.sbm</Name>
+      <PublishedFileId>2957590632</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="WeaponCore - 2.4">
       <Name>1918681825.sbm</Name>
       <PublishedFileId>1918681825</PublishedFileId>
@@ -154,11 +159,6 @@
     <ModItem FriendlyName="Anomaly-Solaris-Hypernautics">
       <Name>2983399274.sbm</Name>
       <PublishedFileId>2983399274</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="SCPrefabSpawner">
-      <Name>2977065999.sbm</Name>
-      <PublishedFileId>2977065999</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="WCT FreeSubgrid">
@@ -376,11 +376,6 @@
       <PublishedFileId>2824332148</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Military Industrial Complex">
-      <Name>2902380862.sbm</Name>
-      <PublishedFileId>2902380862</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="MA_Afterburner">
       <Name>2582915617.sbm</Name>
       <PublishedFileId>2582915617</PublishedFileId>
@@ -563,5 +558,5 @@
     </ModItem>
   </Mods>
   <SessionName>StarcoreWorkshopWorld</SessionName>
-  <LastSaveTime>2023-05-19T17:46:47.2106323-05:00</LastSaveTime>
+  <LastSaveTime>2023-06-25T11:19:03.3461919-05:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
