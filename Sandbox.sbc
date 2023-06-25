@@ -516,6 +516,11 @@ ReplacePaintSurvival=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
+    <ModItem FriendlyName="WeaponCore - 2.4">
+      <Name>1918681825.sbm</Name>
+      <PublishedFileId>1918681825</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="PickmeRevengeance">
       <Name>2986589130.sbm</Name>
       <PublishedFileId>2986589130</PublishedFileId>
@@ -529,11 +534,6 @@ ReplacePaintSurvival=False
     <ModItem FriendlyName="SCPrefabSpawner">
       <Name>2977065999.sbm</Name>
       <PublishedFileId>2977065999</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="WeaponCore - 2.2(1.0)-WIP">
-      <Name>2189703321.sbm</Name>
-      <PublishedFileId>2189703321</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="WCT FreeSubgrid">
