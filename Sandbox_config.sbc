@@ -461,9 +461,9 @@
       <PublishedFileId>2669855688</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Block Restrictions">
-      <Name>2053202808.sbm</Name>
-      <PublishedFileId>2053202808</PublishedFileId>
+<ModItem FriendlyName="OldBlockRestrictions">
+      <Name>2995125400.sbm</Name>
+      <PublishedFileId>2995125400</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Blink Drive">
