@@ -1,8 +1,8 @@
-[17:13:04.551] [T1] [DS=False] DEBUG | Log Started
-[17:13:04.647] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[18:27:26.430] [T1] [DS=False] DEBUG | Log Started
+[18:27:26.472] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
-->->-> Definition = NULL
+->->-> Definition = (null)/(null)
 ->->-> Definition was null
 
 BeforeStart() - Checking Config for saved settings
@@ -1524,6 +1524,7 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/Odin_Lazcannon
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/JN_175Fixed
+->-> Definition added to restricted list
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_UpgradeModule/StealthDrive
 ->-> Unable to retrieve MyCubeBlockDefinition
@@ -1992,7 +1993,7 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/LargeRailgun_SC
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/CLB2X
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/BALLER
 ->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/65_Launcher_FixedMount
@@ -2162,8 +2163,22 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/Support_Module_Test
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/K_HS_Damnation
+->-> Definition added to restricted list
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_LargeMissileTurret/KreegMagnetarCannon
+->-> Definition added to restricted list
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/Thagomizer
+->-> Definition added to restricted list
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/Thagomizer_Flipped
+->-> Definition added to restricted list
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/Thagomizer_Angled
+->-> Definition added to restricted list
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/Thagomizer_Angled_Flipped
+->-> Definition added to restricted list
 ->-> Setting added successfully
 
 BeforeStart() - Checking Entity Components

@@ -104,11 +104,11 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>true</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0.5</ProceduralDensity>
+    <ProceduralDensity>0.35</ProceduralDensity>
     <ProceduralSeed>197861</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
-    <ViewDistance>30000</ViewDistance>
+    <ViewDistance>25000</ViewDistance>
     <VoxelGeneratorVersion>4</VoxelGeneratorVersion>
     <EnableOxygen>false</EnableOxygen>
     <EnableOxygenPressurization>false</EnableOxygenPressurization>
@@ -142,7 +142,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>30000</SyncDistance>
+    <SyncDistance>25000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>false</EnableVoxelHand>
