@@ -8,7 +8,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>1</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -44,7 +44,7 @@
     <ProceduralSeed>197861</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
-    <ViewDistance>25000</ViewDistance>
+    <ViewDistance>20000</ViewDistance>
     <VoxelGeneratorVersion>4</VoxelGeneratorVersion>
     <EnableOxygen>false</EnableOxygen>
     <EnableOxygenPressurization>false</EnableOxygenPressurization>
