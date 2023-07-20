@@ -11,8 +11,8 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@v3
         with:
           find: "<MaxPlayers>16</MaxPlayers>"
-          find 2: "<MaxPlayers>16</MaxPlayers>"
-          replace: "<SyncDistance>20000</SyncDistance>"
+          find 2: "<SyncDistance>20000</SyncDistance>"
+          replace: "<MaxPlayers>32</MaxPlayers>"
           replace 2: "<SyncDistance>25000</SyncDistance>"
           include: "**.sbc"
           regex: true
