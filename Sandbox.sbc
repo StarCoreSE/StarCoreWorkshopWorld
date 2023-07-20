@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<MaxPlayers>32</MaxPlayers><SyncDistance>25000</SyncDistance><?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
   <ElapsedGameTime>195498400000</ElapsedGameTime>
