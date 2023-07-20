@@ -10,4 +10,4 @@ jobs:
         with:
           find: "<MaxPlayers>16</MaxPlayers>"
           replace: "<MaxPlayers>32</MaxPlayers>"
-          include: "**.sbc"
+          regex: false
