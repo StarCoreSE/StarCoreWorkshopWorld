@@ -7,7 +7,7 @@ jobs:
       contents: write    
     steps:
       - uses: actions/checkout@v3
-      - uses: InvalidArgument3/replace-multiple-action@v1
+      - uses: PiekarskiKarol/replace-multiple-action@v1
         with:
           files: '**.sbc'
           find: '[{ "find": "<SyncDistance>20000</SyncDistance>", "replace": "<SyncDistance>25000</SyncDistance>"}, { "find": "<MaxPlayers>16</MaxPlayers>", "replace": "<MaxPlayers>32</MaxPlayers>" }]'
