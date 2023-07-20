@@ -1,4 +1,4 @@
-name: validate many things
+name: validate playercount
 on: [push, pull_request]
 jobs:
   build:
@@ -10,14 +10,9 @@ jobs:
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
         with:
-          find: "<MaxPlayers>16</MaxPlayers>"
-          replace: "<MaxPlayers>32</MaxPlayers>"
-          include: "**.sbc"
-          regex: true
-        with:
-          find: "<SyncDistance>25000</SyncDistance>"
+          find: "<SyncDistance>20000</SyncDistance>"
           replace: "<SyncDistance>25000</SyncDistance>"
           include: "**.sbc"
-          regex: true          
+          regex: true
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
