@@ -11,7 +11,9 @@ jobs:
         with:
           files: '**.sbc'
           find: '[{ "find": "<SyncDistance>20000</SyncDistance>", "replace": "<SyncDistance>25000</SyncDistance>"}, { "find": "<MaxPlayers>16</MaxPlayers>", "replace": "<MaxPlayers>32</MaxPlayers>" }]'
-     - name: Push changes
+          prefix: '(^|\\s+|\\()'
+          suffix: '($|\\s+|\\))'
+      - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         
         
