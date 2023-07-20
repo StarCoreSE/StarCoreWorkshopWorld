@@ -5,8 +5,8 @@
   <SessionName>StarcoreWorkshopWorld</SessionName>
   <SpectatorPosition>
     <Position x="-27.420629406699661" y="-7.8921497092960609" z="-17.740629230738527" />
-    <Forward x="0.718126059" y="-0.528016567" z="0.453313857" />
-    <Up x="-0.485394567" y="-0.8468271" z="-0.217430443" />
+    <Forward x="0.718126059" y="-0.528016567" z="0.453313947" />
+    <Up x="-0.485394567" y="-0.846827149" z="-0.217430472" />
     <Orientation>
       <X>0.8364847</X>
       <Y>-0.164165646</Y>
@@ -805,6 +805,11 @@ ReplacePaintSurvival=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
+    <ModItem FriendlyName="SCEntityCover">
+      <Name>3007088668.sbm</Name>
+      <PublishedFileId>3007088668</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="WC Radar">
       <Name>2957590632.sbm</Name>
       <PublishedFileId>2957590632</PublishedFileId>
@@ -1125,7 +1130,7 @@ ReplacePaintSurvival=False
       <PublishedFileId>2669855688</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-<ModItem FriendlyName="OldBlockRestrictions">
+    <ModItem FriendlyName="OldBlockRestrictions">
       <Name>2995125400.sbm</Name>
       <PublishedFileId>2995125400</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1221,6 +1226,7 @@ ReplacePaintSurvival=False
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
   </Mods>
+  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1785,6 +1791,8 @@ ReplacePaintSurvival=False
       </item>
     </dictionary>
   </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -64726,4 +64734,7 @@ ReplacePaintSurvival=False
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>

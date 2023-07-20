@@ -141,6 +141,11 @@
     <MaxProductionQueueLength>50</MaxProductionQueueLength>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="SCEntityCover">
+      <Name>3007088668.sbm</Name>
+      <PublishedFileId>3007088668</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="WC Radar">
       <Name>2957590632.sbm</Name>
       <PublishedFileId>2957590632</PublishedFileId>
@@ -461,7 +466,7 @@
       <PublishedFileId>2669855688</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-<ModItem FriendlyName="OldBlockRestrictions">
+    <ModItem FriendlyName="OldBlockRestrictions">
       <Name>2995125400.sbm</Name>
       <PublishedFileId>2995125400</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
