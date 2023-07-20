@@ -14,12 +14,8 @@ jobs:
           replace: "<MaxPlayers>32</MaxPlayers>"
           include: "**.sbc"
           regex: true
-    steps:
-      - uses: actions/checkout@v2
-      - name: Find and Replace
-        uses: jacobtomlinson/gha-find-replace@v3
         with:
-          find: "<SyncDistance>20000</SyncDistance>"
+          find: "<SyncDistance>25000</SyncDistance>"
           replace: "<SyncDistance>25000</SyncDistance>"
           include: "**.sbc"
           regex: true          
