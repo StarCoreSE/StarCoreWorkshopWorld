@@ -1,7 +1,10 @@
 name: "Upload to Workshop"
 
 on:
-  - push
+  workflow_run:
+    workflows: ["validate maxplayers after the workflow finishes holy fuck why"]
+    types:
+      - completed
 
 jobs:
   upload:

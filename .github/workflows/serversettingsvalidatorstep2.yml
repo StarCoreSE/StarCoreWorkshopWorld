@@ -1,4 +1,5 @@
 name: validate maxplayers after the workflow finishes holy fuck why
+
 on:
   workflow_run:
     workflows: ["validate syncrange"]
