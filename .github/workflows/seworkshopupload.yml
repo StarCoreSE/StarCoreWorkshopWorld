@@ -2,7 +2,7 @@ name: "Upload to Workshop"
 
 on:
   workflow_run:
-    workflows: ["validate maxplayers after the workflow finishes holy fuck why"]
+    workflows: ["see offline and set it to public"]
     types:
       - completed
 
